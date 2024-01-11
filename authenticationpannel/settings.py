@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure-uwz$jar@@8afs+ghw6+zm!9h_by1%^w%o&9&#i-2(4zi_+!b&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 # Application definition
 INSTALLED_APPS = [
