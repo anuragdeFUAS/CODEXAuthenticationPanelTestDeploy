@@ -158,6 +158,8 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOW_CREDENTIALS = True
+
 STORAGES = {
     # ...
     "staticfiles": {
